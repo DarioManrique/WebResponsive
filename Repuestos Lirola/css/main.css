@@ -1,0 +1,47 @@
+.menu {
+    background-color: rgb(10, 24, 61);
+}
+
+.iconos {
+    color: white;
+    text-decoration: none;
+}
+
+.imgResponsive {
+    width: 90%;
+    
+}
+
+.row>* {
+    padding: 0;
+}
+
+.separador{
+    width: 100%;
+    height: 20px;
+}
+
+p ~ img {
+    width: 90%;
+    max-height: 30%;
+    
+}
+
+.margenColumnas{
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.contenedorColumnas {
+    max-width: 60%;
+    min-height: 15rem;
+    align-self: stretch;
+    
+}
+
+.margenTop {
+    margin-top: 15px;
+}
+
+

@@ -43,8 +43,16 @@ iframe {
     height: 100%;
 }
 
+h3{
+    font-style: oblique;
+}
+
 .centrar-texto {
     text-align: center;
+}
+
+.red-text {
+    color: red;    
 }
 
 @media (min-width: 768px){

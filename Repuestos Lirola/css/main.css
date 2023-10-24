@@ -21,27 +21,21 @@
     height: 20px;
 }
 
-p ~ img {
-    width: 90%;
-    max-height: 30%;
-    
+p ~ img {    
+    width: 80%;
 }
 
-.margenColumnas{
+h2 ~ p {    
+    min-height: 220px;
+}
+
+.altura-h2-columna {
+    min-height: 170px;
+}
+
+.margen-columna-central {
     margin-left: 10px;
     margin-right: 10px;
-    
-}
-
-.contenedorColumnas {
-    max-width: 60%;
-    min-height: 15rem;
-    align-self: stretch;
-    
-}
-
-.margenTop {
-    margin-top: 15px;
 }
 
 

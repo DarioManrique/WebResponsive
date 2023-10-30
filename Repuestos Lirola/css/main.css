@@ -23,13 +23,16 @@ footer {
 }
 .row-tittle {    
     padding: 10px;
-    font-weight: 800;
+    
 }
-p, b {
+p, b  {
     font-family: Muli;
     font-size: 1.125rem;
 }
 
+h1,h2,h3,h4 {
+    font-weight: 800;
+}
 
 .row-description {
     padding: 10px;
@@ -39,18 +42,11 @@ p, b {
     text-align: center;
     font-size: 26px;
 }
-
-.tittle-horario {
-    font-weight: 800;
-}
-
-
 .cerrado {
     color: var(--texto-rojo);
 
 
 }
-
 .row-img {
     
     width: 100%;
@@ -90,8 +86,7 @@ iframe {
 .titulo-productos {
     padding-left: auto;
     padding-top: 20px;
-    padding-bottom: 20px;
-    font-weight: 700;
+    padding-bottom: 20px;    
     text-align: center;
 }
 
@@ -114,8 +109,7 @@ iframe {
 
 .titulo-quiensomos {
     padding-top: 20px;
-    padding-bottom: 20px;
-    font-weight: 800;
+    padding-bottom: 20px;    
     text-align: center;
     margin: 0;
 }

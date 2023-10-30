@@ -4,28 +4,34 @@
     --texto-blanco: white;
     --white-cream: #e6e6e6;
 }
+
 .menu {
     background-color: var(--fondo-azul);
 
 }
+
 footer {
     background-color: var(--fondo-azul);
     color: white;
 }
+
 .row-cream {
     background-color: var(--white-cream);
     flex-direction: row-reverse;
-    padding: 20px;   
+    padding: 20px;
 }
+
 .row-normal {
     padding: 20px;
-    
+
 }
-.row-tittle {    
+
+.row-tittle {
     padding: 10px;
-    
+
 }
-p, b  {
+
+p,b {
     font-family: Muli;
     font-size: 1.125rem;
 }
@@ -42,13 +48,15 @@ h1,h2,h3,h4 {
     text-align: center;
     font-size: 26px;
 }
+
 .cerrado {
     color: var(--texto-rojo);
 
 
 }
+
 .row-img {
-    
+
     width: 100%;
     padding: 10px;
     height: 100%;
@@ -61,7 +69,7 @@ h1,h2,h3,h4 {
 }
 
 .imgPortada {
-    width: 100%;   
+    width: 100%;
 }
 
 
@@ -86,22 +94,23 @@ iframe {
 .titulo-productos {
     padding-left: auto;
     padding-top: 20px;
-    padding-bottom: 20px;    
+    padding-bottom: 20px;
     text-align: center;
 }
 
 .carousel-item h5 {
     position: absolute;
-    margin: 0;   
+    margin: 0;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     font-weight: 800;
 }
+
 .img-carousel {
     width: 30%;
     margin: auto;
-    
+
 }
 
 
@@ -109,7 +118,7 @@ iframe {
 
 .titulo-quiensomos {
     padding-top: 20px;
-    padding-bottom: 20px;    
+    padding-bottom: 20px;
     text-align: center;
     margin: 0;
 }
@@ -122,12 +131,12 @@ iframe {
 #img-quiensomos {
     width: 100%;
     height: 100%;
-    padding: 50px;
+
 
 }
 
 #acercadenosotros {
-    
+
     padding-bottom: 10px;
     font-weight: 900;
 }
@@ -142,18 +151,14 @@ iframe {
 @media (max-width: 576px) {
     .row {
         display: block;
-    }   
-  
-    #img-quiensomos {
-        width: 100%;
-        padding: 0px;
-
     }
-    
+
+
+
     .img-carousel {
         width: 100%;
         margin: auto;
-        
+
     }
 
 }
@@ -161,19 +166,11 @@ iframe {
 @media (min-width: 576px) {
     .row {
         display: block;
-    }   
-   
-    #img-quiensomos {
-        width: 100%;
-        padding: 0px;
-
     }
 
-    
     .img-carousel {
         width: 100%;
         margin: auto;
-        
     }
 
 }
@@ -182,7 +179,7 @@ iframe {
 @media (min-width: 768px) {
     .row {
         display: flex;
-    }  
+    }
 
 
 
@@ -198,33 +195,38 @@ iframe {
         padding: 20px;
     }
 
-    
+
 }
 
 
 @media (min-width: 1200px) {
     .imgPortada {
         width: 90%;
-    }  
-    
+    }
+
+    .row-img {
+        width: 80%;
+    }
+
 }
 
 
 @media (min-width: 1400px) {
     .imgPortada {
         width: 50%;
-        
-    }    
-    .row{
-        justify-content: center;
-        
-    }  
 
-    .row-img{
+    }
+
+    .row {
+        justify-content: center;
+
+    }
+
+    .row-img {
         width: 70%;
     }
 
-    
+
 
 
 

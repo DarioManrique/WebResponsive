@@ -148,6 +148,10 @@ iframe {
     width: 100%;
 }
 
+#row-img-left {
+    justify-content: left;
+}
+
 
 
 /* Media queary para mostrar el contenido en bloque en móvil. */
@@ -236,5 +240,4 @@ iframe {
 
 
 }
-
 

@@ -238,15 +238,3 @@ iframe {
 }
 
 
-.prueba {
-    container-type: inline-size;
-    container-name: sidebar;
-    display: inline-flex;
-  }
-
-
-  @container sidebar (max-width: 1400px) {
-    .card {
-        display: flex;
-    }
-  }

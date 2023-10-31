@@ -150,7 +150,7 @@ iframe {
 
 
 
-
+/* Media queary para mostrar el contenido en bloque en móvil. */
 @media (max-width: 576px) {
     .row {
         display: block;

@@ -31,12 +31,16 @@ footer {
 
 }
 
-p,b {
+p,
+b {
     font-family: Muli;
     font-size: 1.125rem;
 }
 
-h1,h2,h3,h4 {
+h1,
+h2,
+h3,
+h4 {
     font-weight: 800;
 }
 
@@ -91,7 +95,7 @@ iframe {
 
 /*Estilos para productos. html */
 
-.titulo-productos {    
+.titulo-productos {
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
@@ -232,3 +236,6 @@ iframe {
 
 
 }
+
+
+
